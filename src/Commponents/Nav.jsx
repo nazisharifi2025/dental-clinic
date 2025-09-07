@@ -6,19 +6,19 @@ export default function Nav(){
                 <img src="/image/logo2.png" className="h-16" alt="" />
             </div>
             <ul className="flex space-x-12 items-center">
-                <li>
+                <li className="hover:border-b hover:text-blue-900 transition-all duration-700 ">
                     <a href="#">Home</a>
                 </li>
-                <li>
+                <li className="hover:border-b hover:text-blue-900 transition-all duration-700 ">
                     <a href="#">About Us</a>
                 </li>
-                <li>
+                <li className="hover:border-b hover:text-blue-900 transition-all duration-700 ">
                     <a href="#">Serves</a>
                 </li>
-                <li>
+                <li className="hover:border-b hover:text-blue-900 transition-all duration-700 ">
                     <a href="#">Blog</a>
                 </li>
-                <li>
+                <li className="hover:border-b hover:text-blue-900 transition-all duration-700 ">
                     <a href="#">Contuct</a>
                 </li>
             </ul>

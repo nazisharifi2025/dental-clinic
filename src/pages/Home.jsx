@@ -1,5 +1,7 @@
 import About from "../Commponents/About";
+import Blog from "../Commponents/Blog";
 import Contuct from "../Commponents/Contuct";
+import Footer from "../Commponents/Footer";
 import Nav from "../Commponents/Nav";
 import Serveces from "../Commponents/Serveces";
 import Slider from "../Commponents/Slider";
@@ -14,7 +16,9 @@ export default function Home(){
             <Swiper/>
             <Serveces/>
             <Swiper/>
+            <Blog/>
             <Contuct/>
+            <Footer/>
         </div>
     )
 }

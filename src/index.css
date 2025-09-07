@@ -3,4 +3,10 @@
     .icon{
         font-size: 30px;
     }
+    .body {
+  font-family: 'Roboto', sans-serif;
+}
+.font-body{
+    font-family: 'Poppins', sans-serif;
+}
 }
